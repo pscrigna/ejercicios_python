@@ -10,12 +10,9 @@ single line of code.
 
 
 def convert(lista):
-    out = []
-    for x in lista:
-        out.append(chr(x))
-    return out
+    return [str(x) for x in lista]
 
 
 if __name__ == "__main__":
-    print(convert([1, 2, 3]))
-    
+    lista = [1, 2, 3]
+    print(f'Lista original: {lista}, lista salida: {convert(lista)}')
