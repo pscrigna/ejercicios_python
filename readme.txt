@@ -21,10 +21,9 @@ Challenge 	                    Difficulty
 16.Consecutive zeros	        4 / 10	 
 17.All equal	                4 / 10	 
 18.Boolean and	                4 / 10	 
-19.Writing short code	        5 / 10    CONTINUAR	 
+19.Writing short code	        5 / 10
 20.Custom zip	                5 / 10	 
 21.Solution validation	        5 / 10	 
 22.List xor	                    5 / 10	 
 23.Counting parameters	        5 / 10	 
-24.Thousands separator	        7 / 10	 CONTINUAR
-
+24.Thousands separator	        7 / 10

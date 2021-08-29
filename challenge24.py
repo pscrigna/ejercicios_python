@@ -10,8 +10,8 @@ For example, calling format_number(1000000) should return "1,000,000".
 
 
 def format_number(number):
-    number_lst = list(str(number))
-    print(number_lst)
+    return f'{number: ,}'
 
 
-print(format_number(1000000000))
+if __name__ == '__main__':
+    print(format_number(12300000000))
