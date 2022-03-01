@@ -6,19 +6,23 @@ For example, mid("abc") should return "b" and mid("aaaa") should return "".
 """
 
 
-def mid(frase):
-    largo = len(frase)
-    if largo % 2 == 0:
+def mid(phrase):
+    """
+    This function takes a string as a parameter an return the middle letter
+    If there is no middle letter, return tne empty string.
+    """
+    large = len(phrase)
+    if large % 2 == 0:
         return ""
     else:
-        return frase[int(((largo-1)/2))]
+        return phrase[int(((large-1)/2))]
 
 
-def test_mid_vacio():
+def test_mid_empty():
     assert mid("1234") == ""
 
 
-def test_mid_valor():
+def test_mid_value():
     assert mid("12345") == "3"
 
 
