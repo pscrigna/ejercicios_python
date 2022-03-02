@@ -13,7 +13,10 @@ import random
 
 
 def random_number():
-    """ Genera un numero random entre 1 y 100 """
+    """ 
+    This function takes no parameters and generate a randon number
+    between 1 and 100. 
+    """
     return random.randint(1, 100)
 
 
