@@ -19,6 +19,7 @@ string "online" or "offline", as seen above.
 Your function should return the number of people who are online.
 """
 
+
 import pytest
 
 
@@ -42,10 +43,10 @@ def test_online_count():
     assert val == 2
 
 
-def online_count(status):
+def online_count(status_users):
     counter = 0
-    for x in status.values():
-        if x == "online":
+    for status in status_users.values():
+        if status == "online":
             counter += 1
     return counter
 
